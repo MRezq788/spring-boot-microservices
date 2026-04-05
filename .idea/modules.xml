@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-demo.iml" filepath="$PROJECT_DIR$/.idea/microservices-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie/movie-catalog-service.iml" filepath="$PROJECT_DIR$/movie/movie-catalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trending-movies-service/trending-movies-service.iml" filepath="$PROJECT_DIR$/trending-movies-service/trending-movies-service.iml" />
     </modules>
   </component>
 </project>
