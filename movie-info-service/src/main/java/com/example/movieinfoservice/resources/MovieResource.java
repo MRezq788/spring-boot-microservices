@@ -33,12 +33,6 @@ public class MovieResource {
             return cachedMovie.get();
         }
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-
         final String url = "https://api.themoviedb.org/3/movie/" + movieId + "?api_key=" + apiKey;
         MovieSummary movieSummary = restTemplate.getForObject(url, MovieSummary.class);
         Movie fetchedMovie = new Movie(movieId, movieSummary.getTitle(), movieSummary.getOverview());
